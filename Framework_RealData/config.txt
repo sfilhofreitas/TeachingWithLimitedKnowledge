@@ -1,0 +1,6 @@
+OUTPUT PATH: ../Tests/Python/artigo
+TEACHERS: WeightsTheoreticalFounded 0.01 1, PacTeacher 0.005 0.01 1
+LEARNERS: RandomForest, LGBM
+DATASET PATH: ./datasets/car.csv False car
+TEACHER REPETITIONS: 5
+LEARNER REPETITIONS: 1
